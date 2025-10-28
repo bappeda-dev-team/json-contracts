@@ -1,0 +1,94 @@
+{
+    "pohon_kinerja_pemda": [
+        {
+            "id": 1,
+            "nama_pohon_kinerja": "Tema X",
+            "jenis_pohon_kinerja": "Tematik",
+            "keterangan": "tidak ada keterangan",
+            "tahun": 2026,
+            "jenis_child": "SubTema",
+            "indikators": [
+                {
+                    "id": 1,
+                    "indikator": "Indikator 1",
+                    "tahun": 2026,
+                    "targets": [
+                        { "id": 1, "target": 20, "satuan": "%", "tahun": 2026 },
+                        { "id": 2, "target": 10, "satuan": "%", "tahun": 2026 }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "nama_pohon_kinerja": "Tema XX",
+            "jenis_pohon_kinerja": "Tematik",
+            "keterangan": "tidak ada keterangan",
+            "tahun": 2026,
+            "jenis_child": "SubTema",
+            "indikators": []
+        },
+        {
+            "id": 3,
+            "nama_pohon_kinerja": "Tema XXX",
+            "jenis_pohon_kinerja": "Tematik",
+            "keterangan": "tidak ada keterangan",
+            "tahun": 2026,
+            "jenis_child": "SubTema",
+            "indikators": []
+        }
+    ],
+
+    "pohon_kinerja_pemda_pokin": [
+        {
+            "id": 1,
+            "nama_pohon_kinerja": "Tema X",
+            "jenis_pohon_kinerja": "Tematik",
+            "keterangan": "tidak ada keterangan",
+            "tahun": 2026,
+            "indikators": [
+                {
+                    "id": 1,
+                    "indikator": "Indikator 1",
+                    "tahun": 2026,
+                    "targets": [
+                        { "id": 1, "target": 20, "satuan": "%", "tahun": 2026 },
+                        { "id": 2, "target": 10, "satuan": "%", "tahun": 2026 }
+                    ]
+                }
+            ],
+            "jenis_child": ["SubTema"],
+            "childs": [
+                {
+                    "id": 12,
+                    "nama_pohon_kinerja": "Sub Tematik 12",
+                    "jenis_pohon_kinerja": "SubTema",
+                    "keterangan": "tidak ada keterangan",
+                    "tahun": 2026,
+                    "indikators": [
+                        {
+                            "id": 1,
+                            "indikator": "Indikator Sub Tema",
+                            "tahun": 2026,
+                            "targets": [
+                                {
+                                    "id": 1,
+                                    "target": 20,
+                                    "satuan": "%",
+                                    "tahun": 2026
+                                },
+                                {
+                                    "id": 2,
+                                    "target": 10,
+                                    "satuan": "%",
+                                    "tahun": 2026
+                                }
+                            ]
+                        }
+                    ],
+                    "jenis_child": ["SubSubTema", "StrategicPemda"]
+                }
+            ]
+        }
+    ]
+}

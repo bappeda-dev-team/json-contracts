@@ -1,0 +1,4 @@
+{
+    "/pohon_kinerja_pemda/:id/show_pokin": "/pohon_kinerja_pemda_pokin/:id",
+    "/pohon_kinerja_pemda/tahun/:tahun": "/pohon_kinerja_pemda"
+}

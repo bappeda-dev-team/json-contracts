@@ -1,0 +1,13 @@
+{
+  "name": "json-contracts",
+  "version": "1.0.0",
+  "description": "Json Contract for KertasKerja",
+  "main": "server.js",
+  "scripts": {
+    "start": "node ./server/server.js"
+  },
+  "type": "commonjs",
+  "devDependencies": {
+    "json-server": "0.17.4"
+  }
+}
