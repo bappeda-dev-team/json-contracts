@@ -25,21 +25,21 @@ POST http://localhost:5019/pohon_kinerja_pemda
 
 ``` json
 {
-  "nama_pohon_kinerja": "Tema Y",
-  "jenis_pohon_kinerja": "Tematik",
-  "keterangan": "tema baru dari API",
-  "tahun": 2027,
-  "jenis_child": "SubTema",
-"indikators": [
-      {
-        "id": 1,
-        "indikator": "Indikator Baru 1",
-        "tahun": 2027,
-        "targets": [
-          { "id": 1, "target": 30, "satuan": "%", "tahun": 2027 },
-          { "id": 2, "target": 50, "satuan": "%", "tahun": 2027 }
-        ]
-      }
+    "nama_pohon_kinerja": "Tema Y",
+    "jenis_pohon_kinerja": "Tematik",
+    "keterangan": "tema baru dari API",
+    "tahun": 2027,
+    "jenis_child": "SubTema",
+    "indikators": [
+        {
+            "id": 1,
+            "indikator": "Indikator Baru 1",
+            "tahun": 2027,
+            "targets": [
+                { "id": 1, "target": 30, "satuan": "%", "tahun": 2027 },
+                { "id": 2, "target": 50, "satuan": "%", "tahun": 2027 }
+            ]
+        }
     ]
 }
 ```
